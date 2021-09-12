@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 
-public class Index {
+public class IndexController {
     @RequestMapping(value = "/{num}", method = RequestMethod.GET)
 
     public String index(@PathVariable int num){
